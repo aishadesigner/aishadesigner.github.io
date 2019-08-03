@@ -1,0 +1,175 @@
+{
+	"line_dotted_10": {
+		width: 129px;
+		height: 5px;
+		background-position: -5px -5px;
+	}
+
+	"line_dotted_12": {
+		width: 155px;
+		height: 6px;
+		background-position: -144px -5px;
+	}
+
+	"line_dotted_4": {
+		width: 51px;
+		height: 2px;
+		background-position: -309px -5px;
+	}
+
+	"line_dotted_6": {
+		width: 77px;
+		height: 3px;
+		background-position: -370px -5px;
+	}
+
+	"line_dotted_8": {
+		width: 103px;
+		height: 4px;
+		background-position: -457px -5px;
+	}
+
+	"line_double_14": {
+		width: 123px;
+		height: 7px;
+		background-position: -570px -5px;
+	}
+
+	"line_double_14_mask": {
+		width: 123px;
+		height: 7px;
+		background-position: -5px -22px;
+	}
+
+	"line_double_16": {
+		width: 141px;
+		height: 8px;
+		background-position: -138px -22px;
+	}
+
+	"line_double_16_mask": {
+		width: 141px;
+		height: 8px;
+		background-position: -289px -22px;
+	}
+
+	"line_double_18": {
+		width: 141px;
+		height: 9px;
+		background-position: -440px -22px;
+	}
+
+	"line_double_18_mask": {
+		width: 141px;
+		height: 9px;
+		background-position: -591px -22px;
+	}
+
+	"-line_double_20": {
+		width: 141px;
+		height: 10px;
+		background-position: -5px -41px;
+	}
+
+	"line_double_20_mask": {
+		width: 141px;
+		height: 10px;
+		background-position: -156px -41px;
+	}
+
+	"line_shade_22": {
+		width: 137px;
+		height: 11px;
+		background-position: -307px -41px;
+	}
+
+	"line_shade_22_1": {
+		width: 137px;
+		height: 11px;
+		background-position: -454px -41px;
+	}
+
+	"line_shade_22_2": {
+		width: 137px;
+		height: 22px;
+		background-position: -5px -62px;
+	}
+
+	"line_shade_22_4": {
+		width: 137px;
+		height: 38px;
+		background-position: -152px -62px;
+	}
+
+	"line_solid_6": {
+		width: 121px;
+		height: 3px;
+		background-position: -601px -41px;
+	}
+
+	"line_solid_7": {
+		width: 161px;
+		height: 4px;
+		background-position: -299px -62px;
+	}
+
+	"line_water_14": {
+		width: 161px;
+		height: 7px;
+		background-position: -470px -62px;
+	}
+
+	"linedpaper": {
+		width: 412px;
+		height: 300px;
+		background-position: -299px -79px;
+	}
+
+	"linedpaper_256": {
+		width: 256px;
+		height: 256px;
+		background-position: -5px -389px;
+	}
+
+	"natural_paper": {
+		width: 523px;
+		height: 384px;
+		background-position: -742px -5px;
+	}
+
+	"shade_dark": {
+		width: 64px;
+		height: 128px;
+		background-position: -271px -399px;
+	}
+
+	"shade_light": {
+		width: 64px;
+		height: 128px;
+		background-position: -345px -399px;
+	}
+
+	"shade_medium": {
+		width: 64px;
+		height: 128px;
+		background-position: -419px -399px;
+	}
+
+	"shade_medium_2": {
+		width: 128px;
+		height: 128px;
+		background-position: -493px -399px;
+	}
+
+	"shade_medium_seamless": {
+		width: 128px;
+		height: 64px;
+		background-position: -631px -399px;
+	}
+
+	"water": {
+		width: 128px;
+		height: 128px;
+		background-position: -769px -399px;
+	}
+}
