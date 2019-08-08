@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script type='text/javascript'>
+    var map;
+    var midnightCommander = {
+        "version": "1.0",
+        "settings": {
+            "landColor": "#F8F9FA"
+        },
+        "elements": {
+		"mapElement": { "labelVisible": false },
+		"point": { "visible": false },
+        "water": {"fillColor": "#AADAFF", "labelVisible": false },
+		"political": { "borderStrokeColor": "#6B6B6B", "borderOutlineColor": "#00000000", "fillColor": "0000ff", "labelVisible": false },
+		"vegetation": { "fillColor": "#C0ECAE", "labelVisible": false },
+		"park": { "fillColor": "#C0ECAE", "labelVisible": false },
+		"stadium": { "fillColor": "#D4F1C9","labelVisible": false },
+		"cemetery": { "fillColor": "#D4F1C9","labelVisible": false },
+		"golfCourse": { "fillColor": "#D4F1C9", "labelVisible": false },
+		"medical": { "fillColor": "#F8EDED", "labelVisible": false },
+		"education": { "fillColor": "#F8F9FA", "labelVisible": false },
+		"sand": { "fillColor": "#FAF2C7", "labelVisible": false },
+		"shoppingCenter": { "fillColor": "#FFF7EE", "labelVisible": false },
+		"building": { "fillColor": "#EDEDED"},
+		"airport": { "fillColor": "#EFEFF0", "labelVisible": false },
+		"runway": { "fillColor": "#F1F1F1", "strokeColor": "#D7D7D7", "labelVisible": false },
+		"controlledAccessHighway": { "strokeColor": "#F9DA7C", "fillColor": "#FEEFA9", "labelVisible": true, "labelOutlineColor": "#00000000", "labelColor": "#783B03"  },
+		"highway": { "strokeColor": "#F9DA7C", "fillColor": "#FEEFA9", "labelVisible": true, "labelOutlineColor": "#00000000", "labelColor": "#783B03" },
+		"tollRoad": { "strokeColor": "#F9DA7C", "fillColor": "#FEEFA9", "labelVisible": true, "labelOutlineColor": "#00000000", "labelColor": "#783B03" },
+		"majorRoad": { "strokeColor": "#E3E3E3", "fillColor": "#FFFFFF", "labelVisible": true, "labelOutlineColor": "#00000000", "labelColor": "#7E878C"  },
+		"arterialRoad": { "strokeColor": "#E3E3E3", "fillColor": "#FFFFFF", "labelVisible": true, "labelOutlineColor": "#00000000", "labelColor": "#7E878C" },
+		"street": { "strokeColor": "#E3E3E3", "fillColor": "#FFFFFF", "labelVisible": true, "labelOutlineColor": "#00000000", "labelColor": "#7E878C" },
+		"unpavedStreet": { "strokeColor": "#E3E3E3", "fillColor": "#FFFFFF", "labelVisible": false },
+		"railway": { "fillColor": "#F4F4F4", "strokeColor": "#DFE2E4", "labelVisible": false },
+		"trail": { "fillColor": "#C0ECAE", "labelVisible": false }
+		}
+    };
+    function GetMap()
+    {
+        map = new Microsoft.Maps.Map('#myMap', {
+            customMapStyle: midnightCommander
+        });
+    }
+    </script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Ak10uMhVrshAXpLNrHnCbRFE-mAfkQa9fIR-H5f7lqXMFe6PXqXoBZedDfLqI2xI' async defer></script>
+</head>
+<body>
+    <div id="myMap"></div>
+</body>
+</html>
